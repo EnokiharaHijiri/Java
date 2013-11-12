@@ -21,16 +21,16 @@ public class main {
 		WindInstrumentProduct w2 =Ac2.create();
 		w2.printPlate();
 		w2.play();*/
-		
+
 		/////////////////////////////////////////
-		
+
 		WindInstrumentProduct sax = new Saxophone();
-        SaxophoneCreator saxCreator = new SaxophoneCreator();
-        saxCreator.setName("Enokihara's Sax");
-        sax = saxCreator.create();
-        sax.play();
-        sax.printPlate();
-        
+		SaxophoneCreator saxCreator = new SaxophoneCreator();
+		saxCreator.setName("Enokihara's Sax");
+		sax = saxCreator.create();
+		sax.play();
+		sax.printPlate();
+
 	}
 
 }
