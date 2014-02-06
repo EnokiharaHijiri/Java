@@ -71,8 +71,5 @@ public class Gamer {
 		return prefix + fruitsname[random.nextInt(fruitsname.length)];
 		
 	}
-	
-	
-	
 
 }
